@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --experimental-https -H haroon.dev",
     "build": "next build",
-    "start": "next start --experimental-https -H haroon.dev",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
