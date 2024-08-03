@@ -44,7 +44,9 @@ const AccountForm = () => {
             Login
           </Button> */}
           <Button variant='outline' className='w-full'>
-            <a href='https://one-api.13.77.2.205.sslip.io/auth/login/github?redirect=https://haroon.dev:3000'>
+            <a
+              href={`https://one-api.13.77.2.205.sslip.io/auth/login/github?redirect=${process.env.URL}`}
+            >
               Continue with Github
             </a>
           </Button>
