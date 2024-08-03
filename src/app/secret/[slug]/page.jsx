@@ -5,7 +5,6 @@ export const revalidate = 0;
 import { client } from '@/lib/directus';
 import { notFound } from 'next/navigation';
 import { readItem, readItems } from '@directus/sdk';
-import { revalidatePath } from 'next/cache';
 
 async function getPage(slug) {
   try {
